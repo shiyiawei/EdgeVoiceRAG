@@ -123,7 +123,7 @@ sudo apt-get install cmake build-essential libzmq3-dev python3-dev
 pip install numpy pybind11 rknn-toolkit2
 
 # 3. 克隆项目
-git clone https://github.com/YourUsername/EdgeVoiceRAG.git
+git clone https://github.com/shiyiawei/EdgeVoiceRAG.git
 cd EdgeVoiceRAG
 ```
 
@@ -142,8 +142,6 @@ mkdir build && cd build
 cmake ..
 make -j4
 
-# 运行系统
-./EdgeVoiceRAG --config ../config/default.yaml
 ```
 
 ---
